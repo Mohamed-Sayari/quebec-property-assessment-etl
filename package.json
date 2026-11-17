@@ -7,7 +7,9 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "ingest": "tsx src/index.ts",
+    "test": "vitest run"
   },
   "keywords": [],
   "author": "",
